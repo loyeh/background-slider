@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-image: url(./images/beautiful-green-field-scenery-picjumbo-com.jpg);
+  width: 100dvw;
+  height: 100dvh;
+  background-position: center;
+  transition: 1s;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000aa;
+}
+
+.image {
+  width: 60%;
+  height: 75%;
+  background-image: url(./images/beautiful-green-field-scenery-picjumbo-com.jpg);
+  background-position: center;
+  transition: 1s;
+}
+
+.left,
+.right {
+  cursor: pointer;
+  border: 1px solid #ff8827;
+  padding: 10px;
+  font-size: 32px;
+  color: white;
+}
+
+.left {
+  border-right: none;
+}
+
+.right {
+  border-left: none;
+}
